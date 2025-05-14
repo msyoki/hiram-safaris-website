@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Hiram Safaris – Unforgettable African Safari Adventures</title>
+    <meta name="description"
+        content="Experience the best of East Africa with Hiram Safaris. Explore Kenya and Tanzania through our expertly guided safari tours." />
+    <meta name="keywords" content="Hiram Safaris, African Safari, Kenya Tours, Tanzania Safaris, Wildlife Adventures" />
+    <meta name="author" content="Hiram Safaris" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Hiram Safaris – Unforgettable African Safari Adventures" />
+    <meta property="og:description"
+        content="Experience the best of East Africa with Hiram Safaris. Explore Kenya and Tanzania through our expertly guided safari tours." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hiramsafaris.com/" />
+    <meta property="og:image" content="https://hiramsafaris.com/preview.jpg" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hiram Safaris – Unforgettable African Safari Adventures" />
+    <meta name="twitter:description"
+        content="Experience the best of East Africa with Hiram Safaris. Explore Kenya and Tanzania through our expertly guided safari tours." />
+    <meta name="twitter:image" content="https://hiramsafaris.com/preview.jpg" />
+
+
+    <!-- Favicon -->
+    <link href="assets/img/tourlogo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style>
+        /* Position Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            z-index: 1000;
+        }
+
+        /* Position WhatsApp Button */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Back to Top Button -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/254723830684" target="_blank"
+        class="btn btn-lg btn-success btn-lg-square whatsapp-button">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/wow/wow.min.js"></script>
+    <script src="assets/lib/easing/easing.min.js"></script>
+    <script src="assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.back-to-top').fadeIn();
+                } else {
+                    $('.back-to-top').fadeOut();
+                }
+            });
+
+            $('.back-to-top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 500);
+                return false;
+            });
+        });
+    </script>
+
+    <div id="root"></div>
+</body>
+
+</html>
