@@ -1,24 +1,24 @@
 {
-  "short_name": "Hiram's Safaris",
+  "short_name": "Hiram Safaris",
   "name": "Hiram's Mountain Trek & Safaris",
   "icons": [
     {
-      "src": "tourlogo.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "assets/img/tourlogo.png",
+      "sizes": "64x64",
+      "type": "image/png"
     },
     {
-      "src": "tourlogo.pngg",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "assets/img/tourlogo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "tourlogo.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "assets/img/tourlogo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
